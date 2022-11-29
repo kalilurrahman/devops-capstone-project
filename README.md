@@ -131,3 +131,8 @@ You can now perform Tekton development locally, just like in the Cloud IDE lab e
 Licensed under the Apache License. See [LICENSE](LICENSE)
 
 ## <h3 align="center"> © IBM Corporation 2022. All rights reserved. <h3/>
+    
+ Given code is ready to be merged
+When a pull request is created
+Then GitHub Actions should run linting and unit tests
+And the badge should show that the build is passing
